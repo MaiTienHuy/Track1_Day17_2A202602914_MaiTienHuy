@@ -1,6 +1,6 @@
 # Track 1 · Day 17 — Problem Interview (Case B: Personal Learning Notes)
 
-> **Trạng thái:** Đã có một lượt phỏng vấn và đã điền Interview Record từ phần tóm tắt do interviewer cung cấp. Chưa có bản ghi/transcript, thông tin buổi phỏng vấn và một tình huống cụ thể đủ chi tiết để đối chiếu. Phần Chặng 1 là **giả thuyết trước phỏng vấn**; kết quả ban đầu được ghi riêng bên dưới.
+> **Trạng thái:** Đã có một lượt phỏng vấn; Interview Record được điền từ phần tóm tắt do interviewer cung cấp và đã có liên kết bản ghi. Ngày giờ phỏng vấn đã được ghi trong record, nhưng chưa đối chiếu với bản ghi. Repo chưa có transcript, tình huống cụ thể đủ chi tiết hoặc thông tin xác nhận đồng ý ghi âm và chia sẻ bản ghi. Phần Chặng 1 là **giả thuyết trước phỏng vấn**; kết quả ban đầu được ghi riêng bên dưới.
 
 ## 1. Thông tin cá nhân và nhóm
 
@@ -9,9 +9,12 @@
 | MHV | 2A202602914 |
 | Họ tên | Mai Tiến Huy |
 | Người được phỏng vấn | Đinh Trường An — MHV 2A202602393 |
+| Ngày giờ phỏng vấn | 03/10/2026, 12:00 (theo Interview Record; chưa đối chiếu với bản ghi) |
 | Tên nhóm | **[Điền tên nhóm]** |
 | Thành viên | **[Điền họ tên các thành viên]** |
 | Case đã chọn | Case B — AI Notes: Personal Learning Notes |
+
+**Tài liệu phỏng vấn:** [Interview Record](interview/notes.md) · [Liên kết bản ghi](interview/recording-link.md). Các câu trả lời được đánh dấu *mock* trong Interview Record chỉ để minh họa, không phải bằng chứng phỏng vấn. Nội dung bản ghi, quyền truy cập và sự đồng ý của người tham gia cần được xác nhận trước khi dùng hoặc chia sẻ.
 
 ## 2. Problem Hypothesis Brief — Chặng 1
 
@@ -76,7 +79,7 @@ Chọn A để điều tra trước vì nó nối tình huống lưu dấu vết
 | Câu hỏi cần học | Điều người tham gia kể trong bản tóm tắt | Nhận định tạm thời |
 | --- | --- | --- |
 | Có quay lại xem không? | Có quay lại, nhưng chỉ thỉnh thoảng. Có nhiều nội dung từng lưu/highlight không được xem lại vì quên nội dung lẫn quên quay lại. | Có nhu cầu dùng lại ở một số thời điểm; không thể mặc định mọi dấu vết sẽ được ôn. |
-| Khi quay lại có khó không? | Lần cần dùng lại được mô tả là sau khoảng 6 giờ đến 3–4 ngày. Người tham gia nhắc đến Ctrl+F và việc phải kiểm tra cách ghi chú; họ cho rằng việc này mất công. | Có tín hiệu về khó khăn, nhưng chưa rõ việc kiểm tra diễn ra lúc ghi hay lúc tìm lại; chưa có thời gian thao tác hay kết quả cụ thể. |
+| Khi quay lại có khó không? | Khoảng cách từ lúc lưu đến khi cần dùng lại được nêu là 6 giờ đến 3–4 ngày. Người tham gia nhắc đến Ctrl+F và việc phải kiểm tra cách ghi chú; họ cho rằng việc này mất công. | Có tín hiệu về khó khăn, nhưng chưa rõ việc kiểm tra diễn ra lúc ghi hay lúc tìm lại; chưa có thời gian thao tác hay kết quả cụ thể. |
 | Ghi chú rời rạc hay ít quay lại? | Ghi chú được mô tả là đầy đủ, nhưng người tham gia vẫn chỉ thỉnh thoảng quay lại. | Giả thuyết A và B đều còn khả năng; “đầy đủ” chưa đồng nghĩa “dễ tìm” và chưa giải thích được việc quên ôn. |
 
 **Kết luận nghiên cứu tạm thời:** Chưa đủ cơ sở nói AI Notes giải quyết đúng nguyên nhân chính. Cần theo một lần tìm ghi chú từ lúc phát sinh nhu cầu đến lúc dùng xong, và một lần đã lưu nhưng không mở lại, để xác định rào cản cùng hậu quả thực tế. Chi tiết và giới hạn bằng chứng nằm trong [Interview Record](interview/notes.md).
@@ -93,7 +96,7 @@ Chọn A để điều tra trước vì nó nối tình huống lưu dấu vết
 
 ## 3. Conversation Guide — Chặng 2
 
-**Trạng thái phiên bản:** Bản đã cập nhật sau một lượt phỏng vấn từ phần tóm tắt. Các câu hỏi bổ sung dưới đây là **đề xuất của interviewer**, chưa có thông tin xác nhận nhóm đã chốt bản cuối.
+**Trạng thái phiên bản:** Ba câu hỏi chính là bản guide trước khi sửa. Phần “Bổ sung sau phỏng vấn” và Revision log là **đề xuất cập nhật** dựa trên phần tóm tắt; chưa có thông tin xác nhận nhóm đã chốt bản cuối.
 
 ### Big 3
 
@@ -133,20 +136,20 @@ Chọn A để điều tra trước vì nó nối tình huống lưu dấu vết
 | Câu chung chung hoặc lời hứa tương lai | Anchor | “Lần gần nhất chuyện đó xảy ra là khi nào?” |
 | Feature request | Dig | “Ý tưởng đó giúp bạn làm việc gì? Lần gần nhất bạn gặp việc ấy, bạn đã xử lý ra sao?” |
 
-**Rà soát trước luyện:** Câu hỏi bắt đầu từ sự kiện gần đây; không nêu AI Notes trong lời hỏi; không hỏi “bạn có muốn dùng tính năng không”; Big 3 có một câu có thể khiến nhóm bỏ hướng ghi chú; nếu recruitment check không đạt thì đổi cặp. Khi thực hành, interviewer theo câu chuyện thay vì đọc bảng hỏi nguyên thứ tự.
+**Rà soát guide trước phỏng vấn:** Câu hỏi bắt đầu từ sự kiện gần đây; không nêu AI Notes trong lời hỏi; không hỏi “bạn có muốn dùng tính năng không”; Big 3 có một câu có thể khiến nhóm bỏ hướng ghi chú; nếu recruitment check không đạt thì đổi cặp. Khi thực hành, interviewer theo câu chuyện thay vì đọc bảng hỏi nguyên thứ tự.
 
-### Revision log sau luyện
+### Revision log sau phỏng vấn
 
-| Quan sát từ lượt luyện thật | Câu hỏi trước | Câu hỏi sau | Vì sao sửa |
+| Quan sát từ lượt phỏng vấn | Câu hỏi trong guide trước khi sửa | Câu hỏi đề xuất | Vì sao sửa |
 | --- | --- | --- | --- |
-| Người tham gia nhắc đến Ctrl+F và việc kiểm tra cách ghi chú, nhưng chưa rõ việc kiểm tra diễn ra lúc ghi hay lúc tìm; phần tóm tắt cũng thiếu thời gian và kết quả. | “Lúc cần tìm lại, bạn đã tìm bằng cách nào? Phần nào mất công hoặc khó nhất?” | “Ở lần gần nhất bạn dùng Ctrl+F, bạn tìm trong đâu và đã làm gì tiếp? Việc kiểm tra cách ghi chú diễn ra lúc đang ghi hay lúc tìm lại? Mất bao lâu và kết quả ra sao?” | Câu cũ cho biết công cụ và cảm nhận khó, nhưng chưa xác định đúng bước gây tốn công hoặc hậu quả của bước đó. **Đề xuất sửa; chưa xác nhận đã chốt cùng nhóm.** |
-| Người tham gia nói ghi chú đầy đủ nhưng chỉ thỉnh thoảng quay lại; lý do “quên” chưa được gắn với một lần cụ thể. | “Có lần nào bạn đã lưu/highlight một thứ nhưng sau đó không quay lại xem không? Chuyện gì khiến bạn không quay lại?” | “Hãy kể lần gần nhất bạn lưu một phần rồi không mở lại: lúc lưu bạn định dùng nó khi nào, sau đó có lúc nào cần đến kiến thức ấy không, và bạn đã làm gì?” | Câu mới phân biệt không có nhu cầu, quên quay lại, hay dùng nguồn khác; tránh kết luận từ tần suất chung. **Đề xuất sửa; chưa xác nhận đã chốt cùng nhóm.** |
+| Người tham gia nhắc đến Ctrl+F và việc kiểm tra cách ghi chú, nhưng chưa rõ việc kiểm tra diễn ra lúc ghi hay lúc tìm; phần tóm tắt cũng thiếu thời gian và kết quả. | “Nếu đã từng tìm lại, lúc đó bạn tìm bằng cách nào? Mất khoảng bao lâu, kết quả ra sao? Có bước nào mất công hoặc khó không?” | “Ở lần gần nhất bạn cần tìm lại ghi chú, bạn đã mở gì và tìm thế nào? Nếu dùng Ctrl+F, bạn tìm trong đâu và đã làm gì tiếp? Việc kiểm tra cách ghi chú diễn ra lúc đang ghi hay lúc tìm lại?” | Câu cũ hỏi về công cụ và cảm nhận khó, nhưng phần tóm tắt chưa xác định đúng bước gây tốn công hoặc hậu quả của bước đó. **Đề xuất sửa; chưa xác nhận đã chốt cùng nhóm.** |
+| Người tham gia nói ghi chú đầy đủ nhưng chỉ thỉnh thoảng quay lại; lý do “quên” chưa được gắn với một lần cụ thể. | “Bạn nhớ lần gần đây nào đã lưu hoặc highlight một phần nhưng sau đó không quay lại xem không? Lúc đó bạn định dùng nó vào việc gì, và điều gì xảy ra tiếp theo?” | “Hãy kể lần gần nhất bạn lưu một phần rồi không mở lại: lúc lưu bạn định dùng nó khi nào, sau đó có lúc nào cần đến kiến thức ấy không, và bạn đã làm gì?” | Câu mới phân biệt không có nhu cầu, quên quay lại, hay dùng nguồn khác; tránh kết luận từ tần suất chung. **Đề xuất sửa; chưa xác nhận đã chốt cùng nhóm.** |
 
 ## 4. Practice Reflection — Chặng 4
 
-> Reflection dựa trên phần tóm tắt của chính interviewer. Chưa có transcript để đối chiếu câu chữ hoặc xác nhận việc nhóm đã duyệt các sửa đổi.
+> Reflection dựa trên phần tóm tắt của chính interviewer. Repo chưa có transcript để đối chiếu câu chữ hoặc xác nhận việc nhóm đã duyệt các sửa đổi.
 
-1. **Câu hỏi nào giúp user kể tình huống cụ thể?** Câu “Sau khi lưu nội dung đó, lần tiếp theo bạn cần dùng lại nó là khi nào?” giúp lộ ra khoảng từ 6 giờ đến 3–4 ngày. Câu “Lúc cần tìm lại, bạn đã tìm bằng cách nào?” cho thấy người tham gia nhắc đến Ctrl+F và việc kiểm tra cách ghi chú. Tuy vậy, mình chưa neo được câu trả lời vào **một** bài học và **một** lần tìm cụ thể.
+1. **Câu hỏi nào giúp người tham gia kể tình huống cụ thể?** Theo phần tóm tắt, câu hỏi về thời điểm cần dùng lại gợi ra khoảng từ 6 giờ đến 3–4 ngày; câu hỏi về cách tìm gợi ra Ctrl+F và việc kiểm tra cách ghi chú. Chưa có transcript để xác nhận câu chữ đã hỏi. Mình cũng chưa neo được câu trả lời vào **một** bài học và **một** lần tìm cụ thể.
 2. **Chỗ nào mình cần làm tốt hơn?** Khi nghe “mất công” và “Ctrl+F”, mình cần hỏi tiếp ngay: họ tìm ở đâu, kiểm tra bao nhiêu phần, mất bao lâu, có tìm được không và việc đó ảnh hưởng gì đến học/làm bài. Khi nghe “quên quay lại”, mình cần hỏi về lần gần nhất thay vì chỉ ghi nhận đây là chuyện xảy ra nhiều lần.
 3. **Sau lượt phỏng vấn, Conversation Guide được đề xuất sửa ở đâu và vì sao?** Mình bổ sung nhánh hỏi theo trình tự một lần tìm và một lần không quay lại; Revision log ghi câu cũ và câu đề xuất. Cách sửa này nhằm biến câu trả lời khái quát thành bằng chứng hành vi. **Chưa có thông tin nhóm đã cùng chốt các sửa đổi.**
 
@@ -155,7 +158,7 @@ Chọn A để điều tra trước vì nó nối tình huống lưu dấu vết
 | AI đã giúp gì | Điểm có thể sai/hời hợt | Việc người học cần tự kiểm tra, sửa |
 | --- | --- | --- |
 | Phác thảo chuỗi Solution → Change → Actor → Situation & Job → Pain → Evidence cho Case B; đề xuất Evidence Map và câu hỏi phỏng vấn. | Bản AI đầu tiên nghiêng về việc học viên sẽ dùng lại ghi chú và đặt nhánh cạnh tranh là “chưa hiểu bài”, chưa đúng trọng tâm người học muốn kiểm tra. | Người học chốt lại ba điều cần học: có quay lại không, khi quay lại có khó không, và ghi chú rời rạc hay ít ôn mới là vấn đề; AI sửa brief/guide theo hướng đó. Sau phỏng vấn vẫn cần đối chiếu với evidence thật. |
-| Tạo khung README và Interview Record. | AI không có mặt trong buổi phỏng vấn; không thể tự biết lời kể, consent, bản ghi hay thay đổi guide thực tế. | Đối chiếu notes và reflection với bản ghi hoặc ghi chép gốc; chỉ thêm link/file bản ghi có thật và đã được đồng ý. |
+| Tạo khung README và Interview Record. | AI không có mặt trong buổi phỏng vấn; không thể tự biết lời kể, nội dung bản ghi, consent hay thay đổi guide thực tế. | Đối chiếu notes và reflection với bản ghi hoặc ghi chép gốc; xác nhận liên kết bản ghi, quyền truy cập và sự đồng ý của người tham gia. |
 | Chuyển phần tóm tắt hậu phỏng vấn thành Interview Record, kết quả ban đầu và câu hỏi đào sâu. | Từ khóa ngắn như “đầy đủ” và “mất công” có thể bị diễn giải quá mức; phần tóm tắt thiếu một câu chuyện hoàn chỉnh và exact quote. | Xác nhận ý của người tham gia, thời gian/kết quả thao tác và tác động thực tế; sửa mọi chỗ không khớp lời kể gốc trước khi nộp. |
 
 ## Kiểm tra trước khi nộp
@@ -164,8 +167,9 @@ Chọn A để điều tra trước vì nó nối tình huống lưu dấu vết
 - [x] README có đủ năm phần và bản chuẩn bị cho Chặng 1–2.
 - [ ] Điền tên nhóm, thành viên và đối chiếu Problem Hypothesis Brief với kết quả nhóm đã chốt.
 - [x] Đã có một lượt phỏng vấn và điền `interview/notes.md` từ phần tóm tắt được cung cấp.
-- [ ] Xác minh bài học/lần lưu trong 7 ngày, ngày giờ phỏng vấn và tiêu chí tuyển; bổ sung một câu chuyện cụ thể cùng hậu quả hoặc chi phí thực tế.
-- [ ] Xác nhận trạng thái consent trước khi sử dụng hoặc nộp bản ghi.
-- [ ] Thêm file bản ghi hoặc link chỉ cấp quyền cho giảng viên/TA và kiểm tra họ mở được.
+- [ ] Đối chiếu ngày giờ phỏng vấn đã ghi với bản ghi; xác minh bài học/lần lưu trong 7 ngày và tiêu chí tuyển; bổ sung một câu chuyện cụ thể cùng hậu quả hoặc chi phí thực tế.
+- [ ] Xác nhận sự đồng ý ghi âm và chia sẻ bản ghi trước khi sử dụng hoặc nộp.
+- [x] Đã thêm liên kết bản ghi trong `interview/recording-link.md`.
+- [ ] Kiểm tra liên kết trỏ đúng bản ghi và chỉ cấp quyền cho giảng viên/TA theo phạm vi người tham gia đã đồng ý.
 - [x] Đã đề xuất sửa Conversation Guide, điền Revision log và ba câu Practice Reflection dựa trên dữ liệu hiện có.
 - [ ] Nhóm đối chiếu bản sửa với ghi chép gốc và xác nhận phiên bản cuối.
